@@ -6,15 +6,15 @@ namespace ex2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите рост (см.): ");
+            Console.Write("Введите рост (см.): ");
             double height = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите вес (кг.): ");
+            Console.Write("Введите вес (кг.): ");
             double weight = Convert.ToDouble(Console.ReadLine());
 
             //Рассчитать и вывести индекс массы тела (ИМТ) по формуле I=m/(h*h); где m — масса тела в килограммах, h — рост в метрах.
             var h = height / 100;
             var i = weight / (h * h);
-            Console.WriteLine("Индекс массы тела =" + i);
+            Console.Write("Индекс массы тела =" + i);
         }
     }
 }
