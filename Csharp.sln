@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp", "Csharp\Csharp.csproj", "{482E8598-6EE6-414D-8A6A-B82E7D314B04}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson1", "lesson1", "{5D7479D5-A6F6-4484-93DF-03399BB52C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex1", "ex1\ex1.csproj", "{8C17C18F-50D1-466B-9331-C436371CC022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{482E8598-6EE6-414D-8A6A-B82E7D314B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{482E8598-6EE6-414D-8A6A-B82E7D314B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{482E8598-6EE6-414D-8A6A-B82E7D314B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C17C18F-50D1-466B-9331-C436371CC022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C17C18F-50D1-466B-9331-C436371CC022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C17C18F-50D1-466B-9331-C436371CC022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C17C18F-50D1-466B-9331-C436371CC022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C17C18F-50D1-466B-9331-C436371CC022} = {5D7479D5-A6F6-4484-93DF-03399BB52C25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F366CF8-819D-475D-861C-2E4FAA14A307}
